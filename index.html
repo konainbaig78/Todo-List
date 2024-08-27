@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/user-check.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet" />
 </head>
+
 <body>
+    <section>
+        <div id="todo">
+            <h1 id="h1" class="poiret-one-regular">Order of the Day!</h1>
+            <input type="text" autofocus id="text-enter" placeholder="Type here...✍" onclick="size()" />
+            <ul class="ul-noBullets" id="to-do-box">
+            </ul>
+        </div>
+    </section>
+    <h2>By <span id="name">Konain Baig</span></h2>
     <script src="app.js"></script>
 </body>
+
 </html>
